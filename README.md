@@ -14,7 +14,12 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Regulatory reporting in the banking sector involves compiling vast amounts of data to meet
+compliance requirements.
+Data profiling is a critical part of this process, ensuring that reported data aligns with regulatory
+requirements.
+Traditionally, this process is manual and time-consuming. This solution automates data profiling
+using Generative AI (LLMs) and unsupervised machine learning
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,16 +29,24 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Manual data profiling is labor-intensive and prone to human error. Automating this process using AI
+reduces errors, increases efficiency, and ensures compliance with complex regulatory requirements.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+- Generates profiling rules based on transaction data and banking regulations.
+- Calculates adaptive risk scores using unsupervised machine learning techniques.
+- Detects potential violations and suggests remediation actions using a chatbot.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+- Backend: Java Spring Boot (Gradle) with RESTful APIs.
+- Frontend: React.js with state management.
+- Profiling Engine: LLM-based rule generation and risk scoring.
+- Chatbot: Suggests remediation actions based on profiling results
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+- Handling large transaction data efficiently.
+- Defining accurate profiling rules.
+- Generating meaningful remediation suggestions using LLMs.
 
 ## 🏃 How to Run
 1. Clone the repository  
