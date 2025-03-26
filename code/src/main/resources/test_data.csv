@@ -1,0 +1,5 @@
+AccountNumber,TransactionDate,Amount,Currency,InterestRate,Debit,Credit,AccountType,TransactionID,CustomerID,Balance,Age,AccountStatus,CustomerName
+1234567890,2025-03-20,1500.50,USD,5.5,0,1500.50,Savings,TXN12345678,12345678,10000,25,Active,John Doe
+12345,2025-03-35,-200.00,ABC,40.0,200,0,Loan,TXN123,1234,500,16,Active,Jane Smith
+123456789012,2025-03-18,50000.00,USD,2.5,0,50000.00,Checking,TXN987654321,12345678,60000,35,Closed,Bob Johnson
+NULL,2025-03-22,100.00,EUR,3.0,100,0,Savings,TXN4567890123,NULL,1000,30,Active,NULL
